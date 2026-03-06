@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Gnocchi al ragù bianco",
+    "description": "Gnocchi fatti in casa, ragù di vitello leggero, timo fresco",
+    "price": "16 EUR"
+  },
+  {
+    "name": "Polpo croccante",
+    "description": "Polpo scottato, crema di patate affumicate, olio al prezzemolo",
+    "price": "22 EUR"
+  },
+  {
+    "name": "Cheesecake agli agrumi",
+    "description": "Base croccante, crema al limone e arancia, coulis di mandarino",
+    "price": "7 EUR"
+  }
+]
