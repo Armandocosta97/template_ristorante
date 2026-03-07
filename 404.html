@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reindirizzamento...</title>
+    <script>
+      (function () {
+        var path = window.location.pathname
+        var base = '/template_ristorante'
+        var route = path.indexOf(base) === 0 ? path.slice(base.length) : path
+        var hashRoute = route && route !== '/' ? '#'.concat(route) : '#/'
+        var target = base + '/' + hashRoute
+
+        if (window.location.search) {
+          target += window.location.search
+        }
+
+        window.location.replace(target)
+      })()
+    </script>
+  </head>
+  <body></body>
+  </html>
